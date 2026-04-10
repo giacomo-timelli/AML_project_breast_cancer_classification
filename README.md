@@ -50,7 +50,7 @@ Each observation corresponds to a tumor sample, described by 30 numerical featur
 - Boxplots grouped by diagnosis
 - Correlation heatmap
 
-> Plots available in the [Plots folder](eda)
+> Plots available in the [EDA folder](eda)
 
 ---
 
@@ -80,7 +80,7 @@ Each observation corresponds to a tumor sample, described by 30 numerical featur
 - Naive Bayes  
 - Support Vector Machine (SVM)  
 
-> Trained models are stored in the [Models folder](trained_models)
+> Trained models are stored in the [models folder](trained_models)
 
 **Evaluation metrics:**
 - Accuracy  
@@ -140,9 +140,7 @@ Each observation corresponds to a tumor sample, described by 30 numerical featur
 
 ## Script for Exporting Pipeline Results
 
-A custom Python script was developed to automatically export key outputs generated during the pipeline execution, including datasets, trained models, and visualizations.
-
-[saving.py](saving_script/saving_script.py)
+A custom Python script was developed to automatically export key outputs generated during the pipeline execution, including datasets, trained models, and visualizations: [saving_script.py](saving_script/saving_script.py).
 
 ---
 
