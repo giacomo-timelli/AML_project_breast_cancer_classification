@@ -1,7 +1,5 @@
 # Machine Learning Pipeline for Malignant Breast Cancer Cell Prediction
 
-![Difference between Benign (left) and Malignant (right) cells](brastcancer_cells.png)
-
 ## Index
 
 - [Project Overview](#project-overview)
@@ -42,7 +40,7 @@ Each observation corresponds to a tumor sample, described by 30 numerical featur
 - Dataset loading
 - Data cleaning and formatting
 
-> Initial dataset: [breast_df.csv](data/breast_df.csv.csv)
+> Initial dataset: [breast_df.csv](train_test_data/breast_df.csv)
 
 ---
 
@@ -52,7 +50,7 @@ Each observation corresponds to a tumor sample, described by 30 numerical featur
 - Boxplots grouped by diagnosis
 - Correlation heatmap
 
-> Plots available in the [Plots folder](plots)
+> Plots available in the [Plots folder](eda)
 
 ---
 
@@ -62,13 +60,13 @@ Each observation corresponds to a tumor sample, described by 30 numerical featur
 - Feature selection using `SelectKBest` and `RFE`
 
 > Generated datasets:
-- Training set: [X_train](data/X_train.csv)  
-- Test set: [X_test](data/X_test.csv)  
-- Training labels: [Y_train](data/Y_train.csv)  
-- Test labels: [Y_test](data/Y_test.csv)  
-- Scaled datasets: [X_train_scaled](data/X_train_scaled.csv), [X_test_scaled](data/X_test_scaled.csv)  
-- Selected features datasets: [X_train_sel](data/X_train_sel.csv), [X_test_sel](data/X_test_sel.csv)  
-- Labels for selected datasets: [y_train_sel](data/y_train_sel.csv), [y_test_sel](data/y_test_sel.csv)  
+- Training set: [X_train](train_test_data/X_train.csv)  
+- Test set: [X_test](train_test_data/X_test.csv)  
+- Training labels: [Y_train](train_test_data/Y_train.csv)  
+- Test labels: [Y_test](train_test_data/Y_test.csv)  
+- Scaled datasets: [X_train_scaled](train_test_data/X_train_scaled.csv), [X_test_scaled](train_test_data/X_test_scaled.csv)  
+- Selected features datasets: [X_train_sel](train_test_data/X_train_sel.csv), [X_test_sel](train_test_data/X_test_sel.csv)  
+- Labels for selected datasets: [y_train_sel](train_test_data/y_train_sel.csv), [y_test_sel](train_test_data/y_test_sel.csv)  
 
 ---
 
@@ -82,7 +80,7 @@ Each observation corresponds to a tumor sample, described by 30 numerical featur
 - Naive Bayes  
 - Support Vector Machine (SVM)  
 
-> Trained models are stored in the [Models folder](models)
+> Trained models are stored in the [Models folder](trained_models)
 
 **Evaluation metrics:**
 - Accuracy  
@@ -92,7 +90,7 @@ Each observation corresponds to a tumor sample, described by 30 numerical featur
 - Matthews Correlation Coefficient (MCC)  
 - ROC Curve and AUC  
 
-> ROC curves, AUC values, and confusion matrices are available in the [Plots folder](plots)
+> ROC curves, AUC values, and confusion matrices are available in the [Plots folder](eda)
 
 ---
 
@@ -100,7 +98,7 @@ Each observation corresponds to a tumor sample, described by 30 numerical featur
 
 - Comparative analysis of model performance using both visualizations and tabular results
 
-> Final performance summary: [results_models](results/results_models.csv)
+> Final performance summary: [results_models](results.csv)
 
 ---
 
@@ -144,7 +142,7 @@ Each observation corresponds to a tumor sample, described by 30 numerical featur
 
 A custom Python script was developed to automatically export key outputs generated during the pipeline execution, including datasets, trained models, and visualizations.
 
-[saving.py](script/saving.py)
+[saving.py](saving_script/saving_script.py)
 
 ---
 
