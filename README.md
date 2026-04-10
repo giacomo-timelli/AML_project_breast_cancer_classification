@@ -50,7 +50,7 @@ Each observation corresponds to a tumor sample, described by 30 numerical featur
 - Boxplots grouped by diagnosis
 - Correlation heatmap
 
-> Plots available in the [EDA folder](eda)
+> Plots available in the [EDA folder](eda).
 
 ---
 
@@ -80,7 +80,7 @@ Each observation corresponds to a tumor sample, described by 30 numerical featur
 - Naive Bayes  
 - Support Vector Machine (SVM)  
 
-> Trained models are stored in the [models folder](trained_models)
+> Trained models are stored in the [models folder](trained_models).
 
 **Evaluation metrics:**
 - Accuracy  
@@ -90,7 +90,7 @@ Each observation corresponds to a tumor sample, described by 30 numerical featur
 - Matthews Correlation Coefficient (MCC)  
 - ROC Curve and AUC  
 
-> ROC curves, AUC values, and confusion matrices are available in the [Plots folder](eda)
+> ROC curves, AUC values, and confusion matrices are available in the [plots folder](eda).
 
 ---
 
@@ -98,7 +98,7 @@ Each observation corresponds to a tumor sample, described by 30 numerical featur
 
 - Comparative analysis of model performance using both visualizations and tabular results
 
-> Final performance summary: [results_models](results.md)
+> Final performance summary: [results_models](results.md).
 
 ---
 
