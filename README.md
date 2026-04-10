@@ -98,7 +98,7 @@ Each observation corresponds to a tumor sample, described by 30 numerical featur
 
 - Comparative analysis of model performance using both visualizations and tabular results
 
-> Final performance summary: [results_models](results.csv)
+> Final performance summary: [results_models](results.md)
 
 ---
 
